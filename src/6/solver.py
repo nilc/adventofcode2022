@@ -6,8 +6,6 @@ __location__ = os.path.realpath(
 file1 = open(os.path.join(__location__, 'input.txt'))
 lines = file1.readlines()
 
-dict = {}
-
 startofpacket = False
 
 for line in lines:
